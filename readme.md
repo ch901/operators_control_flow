@@ -26,5 +26,16 @@ console.log(x + y)
 x = y
 a = b
 
+//comparism operator
+let revenue = 500
+let bdget = 500
+console.log(revenue == budget) weak comparism
+
+let revenue = 500
+let bdget = '500'
+console.log(revenue === budget) strict comparism
+
+logical operator
+
 //question4//
 1, 8, 15
