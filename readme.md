@@ -35,7 +35,16 @@ let revenue = 500
 let bdget = '500'
 console.log(revenue === budget) strict comparism
 
-logical operator
+//logical operator
+let HND = 'ACQUIRED';
+let BSC = 'ACQUIRED';
+
+(DEGREE === 'ACQUIRED' || MSC === 'ACQUIRED') ? console.log('APPROVED') : console.log('Not APPROVED')
+
+let BSC = 'ACQUIRED';
+let MSC = 'ACQUIRED';
+
+(DEGREE === 'ACQUIRED' && MSC === 'ACQUIRED') ? console.log('HIRE') : console.log('Don't HIRE')
 
 //question4//
 1, 8, 15
