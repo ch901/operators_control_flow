@@ -44,7 +44,7 @@ let BSC = 'ACQUIRED';
 let BSC = 'ACQUIRED';
 let MSC = 'ACQUIRED';
 
-(DEGREE === 'ACQUIRED' && MSC === 'ACQUIRED') ? console.log('HIRE') : console.log('Don't HIRE')
+(DEGREE === 'ACQUIRED' && MSC === 'ACQUIRED') ? console.log('HIRE') : console.log('Dont HIRE')
 
 //question4//
 1, 8, 15
