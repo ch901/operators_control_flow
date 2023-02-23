@@ -39,7 +39,7 @@ console.log(revenue === budget) strict comparism
 let HND = 'ACQUIRED';
 let BSC = 'ACQUIRED';
 
-(DEGREE === 'ACQUIRED' || MSC === 'ACQUIRED') ? console.log('APPROVED') : console.log('Not APPROVED')
+(HND === 'ACQUIRED' || BSC === 'ACQUIRED') ? console.log('APPROVED') : console.log('Not APPROVED')
 
 let BSC = 'ACQUIRED';
 let MSC = 'ACQUIRED';
