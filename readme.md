@@ -25,6 +25,10 @@ console.log(x + y)
 x = y
 console.log(y)
 
+let pizza = 10
+pizza = pizza + 10
+pizza += 10
+
 //comparism operator
 let revenue = 500
 let bdget = 500
