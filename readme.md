@@ -24,7 +24,7 @@ console.log(x + y)
 
 //assignment operator
 x = y
-a = b
+console.log(y)
 
 //comparism operator
 let revenue = 500
