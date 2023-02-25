@@ -1,7 +1,5 @@
 //question3
 
-
-
 const scienceSubjects = ['Physics', 'Chemistry', 'Biology', 'Technical Drawing'];
 const socialScienceSubjects = ['Accounting', 'Commerce', 'Marketing', 'Geography'];
 const artsSubjects = ['Government', 'Economics', 'Literature', 'History']

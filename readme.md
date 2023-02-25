@@ -4,6 +4,7 @@ Arithemetic Operators
 
 Assignment Operator
 (=) (+=) (\*=) (-=) (/=) (%=)
+
 Comparism Operators
 (!=) (!==) (==) (===) ( >= ) (<=) (<) (>)
 
