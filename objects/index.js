@@ -90,3 +90,9 @@ console.log(mufasatundeednut)
       
         console.log(musa)
     
+// question 4
+
+// question 5
+for (const key in presidentialCandidates) {
+    console.log(`${presidentialCandidates[key]} is the presidential candidate of ${key}`);
+  }
