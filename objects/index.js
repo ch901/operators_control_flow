@@ -16,11 +16,10 @@
 
 // console.log(instagramPost)
 
-// //question2
-
 // console.log('handle of authur is ' + instagramPost.handleOfAuthor)
 
 // console.log('numberOfViews is ' + instagramPost.numberOfViews)
+
 
 function instagramPost(handleOfAuthor,  content, anImageLinkPostedByTheAuthorOfThePost, numberOfViews, numberOfLikes) {
     this.handleOfAuthor = handleOfAuthor;
@@ -28,10 +27,49 @@ function instagramPost(handleOfAuthor,  content, anImageLinkPostedByTheAuthorOfT
     this.anImageLinkPostedByTheAuthorOfThePost = anImageLinkPostedByTheAuthorOfThePost;
     this.numberOfViews = numberOfViews;
     this.numberOfLikes = numberOfLikes;
-
 }
+ //Question 2
 
 let marwanedev = new instagramPost('marwanedev', 'image', 'link', 9655, 83077);
 console.log (marwanedev)
 
 let mufasatundeednut = new instagramPost('mufasatundeednut', 'image', 'link', 117036, 116720);
+console.log(mufasatundeednut)
+
+//Quesion3
+
+// factory function
+function musa(name, age, location) {
+    return {
+      name: name,
+      age: age,
+      location: location,
+    };
+  }
+  
+  const musa = musa("musaDauda", "19", "lekki-lagos");
+  console.log(musa);
+  
+
+  const student = {
+    firstName: "musa",
+    lastName: "dauda",
+    age: 19,
+    jambScores: {
+        ENG: 70,
+        GOV: 85,
+        LIT: 82,
+        CRK: 94,
+      },
+    }
+  
+    console.log(student)
+  
+    let chemScore = student.jambScores.CRK; // using dot notation
+    console.log('chemScore is ' + crkScore)
+  
+    let mthScore = student['jambScores']['LIT'];
+    console.log('maths Score is ' + litScore)
+  
+  
+  
