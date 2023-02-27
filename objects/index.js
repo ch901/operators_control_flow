@@ -39,37 +39,54 @@ console.log(mufasatundeednut)
 //Quesion3
 
 // factory function
-function musa(name, age, location) {
-    return {
-      name: name,
-      age: age,
-      location: location,
-    };
-  }
+// function musa(name, age, location) {
+//     return {
+//       name: name,
+//       age: age,
+//       location: location,
+//     };
+//   }
   
 //   const musa = musa("musaDauda", "19", "lekki-lagos");
 //   console.log(musa);
   
 
-  const student = {
-    firstName: "musa",
-    lastName: "dauda",
-    age: 19,
-    jambScores: {
-        ENG: 70,
-        GOV: 85,
-        LIT: 82,
-        CRK: 94,
-      },
+//   const student = {
+//     firstName: "musa",
+//     lastName: "dauda",
+//     age: 19,
+//     jambScores: {
+//         ENG: 70,
+//         GOV: 85,
+//         LIT: 82,
+//         CRK: 94,
+//       },
+//     }
+  
+//     console.log(student)
+  
+//     let crkScore = student.jambScores.CRK; // using dot notation
+//     console.log('crk Score is ' + crkScore)
+  
+//     let litScore = student['jambScores']['LIT'];// using bracket notation
+//     console.log('lit Score is ' + litScore)
+  
+
+    function student(firstName, lastName, age){
+       return {
+        firstName: firstName,
+        lastName: lastName,
+        age: age,
+       jambScores:{
+            ENG: 70,
+            GOV: 85,
+            LIT: 82,
+            CRK: 94,
+        }
+       }
     }
-  
-    console.log(student)
-  
-    let crkScore = student.jambScores.CRK; // using dot notation
-    console.log('crk Score is ' + crkScore)
-  
-    let litScore = student['jambScores']['LIT'];
-    console.log('lit Score is ' + litScore)
-  
-  
-  
+    
+        const musa = student( 'musa', 'dauda', 19)
+      
+        console.log(musa)
+    
