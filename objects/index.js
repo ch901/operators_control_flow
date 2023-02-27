@@ -47,8 +47,8 @@ function musa(name, age, location) {
     };
   }
   
-  const musa = musa("musaDauda", "19", "lekki-lagos");
-  console.log(musa);
+//   const musa = musa("musaDauda", "19", "lekki-lagos");
+//   console.log(musa);
   
 
   const student = {
@@ -65,11 +65,11 @@ function musa(name, age, location) {
   
     console.log(student)
   
-    let chemScore = student.jambScores.CRK; // using dot notation
-    console.log('chemScore is ' + crkScore)
+    let crkScore = student.jambScores.CRK; // using dot notation
+    console.log('crk Score is ' + crkScore)
   
-    let mthScore = student['jambScores']['LIT'];
-    console.log('maths Score is ' + litScore)
+    let litScore = student['jambScores']['LIT'];
+    console.log('lit Score is ' + litScore)
   
   
   
