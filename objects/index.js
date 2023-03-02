@@ -72,27 +72,56 @@ console.log(mufasatundeednut)
 //     console.log('lit Score is ' + litScore)
   
 
-    function student(firstName, lastName, age){
-       return {
-        firstName: firstName,
-        lastName: lastName,
-        age: age,
-       jambScores:{
-            ENG: 70,
-            GOV: 85,
-            LIT: 82,
-            CRK: 94,
-        }
-       }
-    }
+    // function student(firstName, lastName, age){
+    //    return {
+    //     firstName: firstName,
+    //     lastName: lastName,
+    //     age: age,
+    //    jambScores:{
+    //         ENG: 70,
+    //         GOV: 85,
+    //         LIT: 82,
+    //         CRK: 94,
+    //     }
+    //    }
+    // }
     
-        const musa = student( 'musa', 'dauda', 19)
+    //     const musa = student( 'musa', 'dauda', 19)
       
-        console.log(musa)
+    //     console.log(musa)
+
+    
+function student(firstName, lastName, age){
+    return {
+     firstName: firstName,
+     lastName: lastName,
+     age: age,
+    
+    }
+ }
+ 
+     const musa = student( 'musa', 'dauda', 19)
+   
+     console.log(musa)
+
+     function jambScores(ENG, GOV, LIT, CRK){
+     return {
+        ENG: ENG,
+        GOV: GOV,
+        LIT: LIT,
+        CRK: CRK,
+        
+     }
+    }
+student.jambScores = jambScores(70, 85, 82, 94)
+
+console.log (student)
     
 // question 4
 
 // question 5
-for (const key in presidentialCandidates) {
-    console.log(`${presidentialCandidates[key]} is the presidential candidate of ${key}`);
-  }
+// for (const key in presidentialCandidates) {
+//     console.log(`${presidentialCandidates[key]} is the presidential candidate of ${key}`);
+//   }
+
+    
