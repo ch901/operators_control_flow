@@ -1,7 +1,7 @@
 
 
 
-// //question1
+//question1
 
 // const instagramPost = new Object();
 // instagramPost.handleOfAuthor = 'mufasatundeednut';
@@ -21,20 +21,20 @@
 // console.log('numberOfViews is ' + instagramPost.numberOfViews)
 
 
-function instagramPost(handleOfAuthor,  content, anImageLinkPostedByTheAuthorOfThePost, numberOfViews, numberOfLikes) {
-    this.handleOfAuthor = handleOfAuthor;
-    this.content = content;
-    this.anImageLinkPostedByTheAuthorOfThePost = anImageLinkPostedByTheAuthorOfThePost;
-    this.numberOfViews = numberOfViews;
-    this.numberOfLikes = numberOfLikes;
-}
+// function instagramPost(handleOfAuthor,  content, anImageLinkPostedByTheAuthorOfThePost, numberOfViews, numberOfLikes) {
+//     this.handleOfAuthor = handleOfAuthor;
+//     this.content = content;
+//     this.anImageLinkPostedByTheAuthorOfThePost = anImageLinkPostedByTheAuthorOfThePost;
+//     this.numberOfViews = numberOfViews;
+//     this.numberOfLikes = numberOfLikes;
+// }
  //Question 2
 
-let marwanedev = new instagramPost('marwanedev', 'image', 'link', 9655, 83077);
-console.log (marwanedev)
+// let marwanedev = new instagramPost('marwanedev', 'image', 'link', 9655, 83077);
+// console.log (marwanedev)
 
-let mufasatundeednut = new instagramPost('mufasatundeednut', 'image', 'link', 117036, 116720);
-console.log(mufasatundeednut)
+// let mufasatundeednut = new instagramPost('mufasatundeednut', 'image', 'link', 117036, 116720);
+// console.log(mufasatundeednut)
 
 //Quesion3
 
@@ -72,52 +72,82 @@ console.log(mufasatundeednut)
 //     console.log('lit Score is ' + litScore)
   
 
-    // function student(firstName, lastName, age){
-    //    return {
-    //     firstName: firstName,
-    //     lastName: lastName,
-    //     age: age,
-    //    jambScores:{
-    //         ENG: 70,
-    //         GOV: 85,
-    //         LIT: 82,
-    //         CRK: 94,
-    //     }
-    //    }
-    // }
+//     function student(firstName, lastName, age){
+//        return {
+//         firstName: firstName,
+//         lastName: lastName,
+//         age: age,
+//        jambScores:{
+//             ENG: 70,
+//             GOV: 85,
+//             LIT: 82,
+//             CRK: 94,
+//         }
+//        }
+//     }
     
-    //     const musa = student( 'musa', 'dauda', 19)
+//         const musa = student( 'musa', 'dauda', 19)
       
-    //     console.log(musa)
+//         console.log(musa)
 
     
-function student(firstName, lastName, age){
-    return {
-     firstName: firstName,
-     lastName: lastName,
-     age: age,
+// function student(firstName, lastName, age){
+//     return {
+//      firstName: firstName,
+//      lastName: lastName,
+//      age: age,
     
-    }
- }
+//     }
+//  }
  
-     const musa = student( 'musa', 'dauda', 19)
+//      const musa = student( 'musa', 'dauda', 19)
    
-     console.log(musa)
+//      console.log(musa)
 
-     function jambScores(ENG, GOV, LIT, CRK){
-     return {
-        ENG: ENG,
-        GOV: GOV,
-        LIT: LIT,
-        CRK: CRK,
+//      function jambScores(ENG, GOV, LIT, CRK){
+//      return {
+//         ENG: ENG,
+//         GOV: GOV,
+//         LIT: LIT,
+//         CRK: CRK,
         
-     }
-    }
-student.jambScores = jambScores(70, 85, 82, 94)
+//      }
+//     }
+// student.jambScores = jambScores(70, 85, 82, 94)
 
-console.log (student)
+// console.log (student)
     
 // question 4
+const firstBook = {
+    author: "Wole Soyinka",
+    title: "The Trial of Brother Jero",
+    yearPublished: 1963,
+    publishers: "Oxford University Press"
+  };
+// object assign
+const secondBook = Object.assign({}, firstBook);
+console.log(firstBook);
+console.log(secondBook);
+secondBook.title = "The Road";
+secondBook.yearPublished = 1965
+console.log(firstBook);
+console.log(secondBook);
+
+// spread syntax
+const thirdBook = { ...firstBook };
+thirdBook.title = "The Season of Anomy";
+thirdBook.yearPublished = 1973
+console.log({ firstBook });
+console.log({ thirdBook });
+
+// JSON.parse(JSON.stringify())
+const fourthBook = JSON.parse;
+fourthBook.title = "Chronicles from the Land of The Happiest People On Earth";
+FourthBook.yearPublished = 2021
+console.log({ firstBook });
+console.log({ fourthBook });
+
+
 
 // question 5
 // for (const key in presidentialCandidates) {
