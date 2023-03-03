@@ -125,28 +125,30 @@ const firstBook = {
     publishers: "Oxford University Press"
   };
 // object assign
-const secondBook = Object.assign({}, firstBook);
-console.log(firstBook);
-console.log(secondBook);
-secondBook.title = "The Road";
-secondBook.yearPublished = 1965
-console.log(firstBook);
-console.log(secondBook);
+// const secondBook = Object.assign({}, firstBook);
+// secondBook.title = "The Road";
+// secondBook.yearPublished = 1965
+// console.log(firstBook);
+// console.log(secondBook);
 
 // spread syntax
-const thirdBook = { ...firstBook };
-thirdBook.title = "The Season of Anomy";
-thirdBook.yearPublished = 1973
-console.log({ firstBook });
-console.log({ thirdBook });
+// const thirdBook = { ...firstBook };
+// thirdBook.title = "The Season of Anomy";
+// thirdBook.yearPublished = 1973
+// console.log({ firstBook });
+// console.log({ thirdBook });
 
 // JSON.parse(JSON.stringify())
 const fourthBook = JSON.parse;
 fourthBook.title = "Chronicles from the Land of The Happiest People On Earth";
-FourthBook.yearPublished = 2021
+fourthBook.yearPublished = 2021
 console.log({ firstBook });
 console.log({ fourthBook });
 
+
+const fifthBook = (JSON.stringify(firstBook));
+
+console.log({fifthBook})
 
 
 // question 5
